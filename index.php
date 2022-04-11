@@ -4,5 +4,5 @@ header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
 ?>
 <?php 
- echo "Pod IP: ".$_SERVER['SERVER_ADDR'] ;
+ echo "The Pod IP is: ".$_SERVER['SERVER_ADDR'] ;
  ?>
